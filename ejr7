@@ -1,0 +1,59 @@
+// 7. Ingresar un número de mes y mostrar el nombre de dicho mes. Si se ingresa un 
+//número de mes inválido, informar dicha situación con un mensaje aclaratorio.
+
+Console.WriteLine("Ingresar número del mes: ");
+int mes = int.Parse(Console.ReadLine());
+
+if (mes == 1)
+{
+    Console.WriteLine("El mes ingresado es enero ");
+}
+if (mes == 2)
+{
+    Console.WriteLine("El mes ingresado es febrero");
+}
+if (mes == 3)
+{
+    Console.WriteLine("El mes ingresado es marzo");
+}
+if (mes == 4)
+{
+    Console.WriteLine("El mes ingresado es abril");
+}
+if (mes == 5)
+{
+    Console.WriteLine("El mes ingresado es mayo");
+}
+if (mes == 6)
+{
+    Console.WriteLine("El mes ingresado es junio");
+}
+if (mes == 7)
+{
+    Console.WriteLine("El mes ingresado es julio");
+}
+if (mes == 8)
+{
+    Console.WriteLine("El mes ingresado es agosto");
+}
+if (mes == 9)
+{
+    Console.WriteLine("El mes ingresado es septiembre");
+}
+if (mes == 10)
+{
+    Console.WriteLine("El mes ingresado es octubre");
+}
+if (mes == 11)
+{
+    Console.WriteLine("El mes ingresado es noviembre");
+}
+if (mes == 12)
+{
+    Console.WriteLine("El mes ingresado es diciembre");
+}
+
+if (mes >= 13 || mes <= 0)
+{
+    Console.WriteLine("el mes ingresado es incorrecto");
+}
