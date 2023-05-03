@@ -1,0 +1,27 @@
+// 2. Ingresando una nota final de cursada (valor con decimales) informar si la condición es: 
+//Promovido, Regular o Libre. Libre: menor a 4, Regular: mayor o igual a 4 y menor a 6, y 
+//Promovido: mayor o igual a 6.
+
+
+Console.WriteLine("Ingresar nota final del alumno: ");
+int nota = int.Parse(Console.ReadLine());
+
+if (nota < 4)
+{
+    Console.WriteLine("El alumno está libre.");
+}
+
+if (nota >= 4 && nota < 6)
+{
+    Console.WriteLine("El almuno es regular");
+}
+
+if (nota >= 6 && nota <= 10)
+{
+    Console.WriteLine("El almuno ha promovido");
+}
+
+if (nota >= 11)
+{
+    Console.WriteLine("la nota ingresada es incorrecta");
+}
