@@ -1,0 +1,21 @@
+// 1. Ingresar la nota de un alumno correspondiente a un parcial (valor con decimales) e 
+// informar si está Aprobado o Reprobado. Aprobado: mayor o igual a 4.
+
+
+Console.WriteLine("ingresar la nota del alumno: ");
+int nota = int.Parse(Console.ReadLine());
+
+if (nota >= 1 && nota <= 4)
+{
+    Console.WriteLine("El alumno esta reprobado con una nota de: " + nota + "puntos");
+}
+
+if (nota >= 4 && nota <= 10)
+{
+    Console.WriteLine("el alumno esta aprobado con una nota de: " + nota + "puntos");
+}
+
+if (nota >= 11)
+{
+    Console.WriteLine("la nota ingresada es invalida");
+}
