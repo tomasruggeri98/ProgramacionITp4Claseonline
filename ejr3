@@ -1,0 +1,13 @@
+// 3. Dados dos números enteros distintos, mostrarlos ordenados de forma creciente.
+
+Console.WriteLine("Ingresar un numero entero: ");
+int n1 = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Ingresar otro numero entero: ");
+int n2 = int.Parse(Console.ReadLine());
+
+if (n1 > n2)
+{
+    Console.WriteLine("el valor menor es: " + n2 + " y el valor mayor es: " + n1);
+}
+else Console.WriteLine("el valor menor es: " + n1 + " y el valor mayor es: "+ n2);
