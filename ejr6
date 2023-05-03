@@ -1,0 +1,40 @@
+// 6. Ingresar un número de día y mostrar el nombre de dicho día. El día domingo se 
+//considera el primer día de la semana. Si se ingresa un número de día inválido, informar 
+//dicha situación con un mensaje aclaratorio.
+
+Console.WriteLine("Ingresar número de día de la semana teniendo en cuenta que el domingo es día 1");
+int dia = int.Parse(Console.ReadLine());
+
+if (dia == 1)
+{
+    Console.WriteLine("Es día domingo");
+}
+if (dia == 2)
+{
+    Console.WriteLine("Es día lunes");
+}
+if (dia == 3)
+{
+    Console.WriteLine("Es día martes");
+}
+if (dia == 4)
+{
+    Console.WriteLine("Es día miercoles");
+}
+if (dia == 5)
+{
+    Console.WriteLine("Es día jueves");
+}
+if (dia == 6)
+{
+    Console.WriteLine("Es día viernes");
+}
+if (dia == 7)
+{
+    Console.WriteLine("Es día sábado");
+}
+
+if (dia <= 0 || dia >= 8)
+{
+    Console.WriteLine("el día ingresado es invalido");
+}
